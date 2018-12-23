@@ -14,9 +14,9 @@ let options = {
 
 // Text + chalk definitions
 let data = {
-  'name': chalk.white('Corentin Marzin /'),
-  'handle': chalk.hex('#f5c316').bold('CMarzin'),
-  'work': chalk.white('Web Developper at Allegro Musique'),
+  'name': chalk.hex('#f5c316')('Corentin Marzin /'),
+  'handle': chalk.white.bold('CMarzin'),
+  'work': chalk.hex('#f5c316')('Web Developper at Allegro Musique'),
   'twitter': chalk.hex('#a1bdd2')('https://twitter.com/marz_coco'),
   'github': chalk.hex('#a1bdd2')('https://github.com/CMarzin'),
   'linkedin': chalk.hex('#a1bdd2')('https://linkedin.com/in/corentin-marzin'),
