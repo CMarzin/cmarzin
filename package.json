@@ -1,0 +1,16 @@
+{
+  "name": "cmarzin",
+  "version": "1.0.1",
+  "description": "npx business card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "cmarzin"
+  },
+  "author": "Corentin Marzin",
+  "license": "ISC"
+}
