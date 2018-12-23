@@ -9,7 +9,7 @@
   "bin": "./cli.js",
   "repository": {
     "type": "git",
-    "url": "cmarzin"
+    "url": "https://github.com/CMarzin/cmarzin"
   },
   "author": "Corentin Marzin",
   "license": "MIT",

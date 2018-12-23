@@ -7,26 +7,27 @@ var boxen = require('boxen')
 let options = {
   padding: 1,
   margin: 1,
-  borderStyle: 'round',
-  borderColor: '#a1bdd2'
+  borderStyle: 'classic',
+  borderColor: '#f5c316'
+  // borderColor: '#a1bdd2'
 }
 
 // Text + chalk definitions
 let data = {
   'name': chalk.white('Corentin Marzin /'),
-  'handle': chalk.hex('#f5c316')('marz_coco'),
+  'handle': chalk.hex('#f5c316').bold('CMarzin'),
   'work': chalk.white('Web Developper at Allegro Musique'),
-  'twitter': chalk.hex('#f5c316')('https://twitter.com/marz_coco'),
-  'github': chalk.hex('#f5c316')('https://github.com/CMarzin'),
-  'linkedin': chalk.hex('#f5c316')('https://linkedin.com/in/corentin-marzin'),
-  'web': chalk.hex('#f5c316')('https://corentinmarzin.fr'),
+  'twitter': chalk.hex('#a1bdd2')('https://twitter.com/marz_coco'),
+  'github': chalk.hex('#a1bdd2')('https://github.com/CMarzin'),
+  'linkedin': chalk.hex('#a1bdd2')('https://linkedin.com/in/corentin-marzin'),
+  'web': chalk.hex('#a1bdd2')('https://corentinmarzin.fr'),
   'npx': chalk.white('npx cmarzin'),
   'labelWork': chalk.white.bold('      Work:'),
   'labelTwitter': chalk.white.bold('   Twitter:'),
   'labelGitHub': chalk.white.bold('    GitHub:'),
   'labelLinkedIn': chalk.white.bold('  LinkedIn:'),
   'labelWeb': chalk.white.bold('       Web:'),
-  'labelCard': chalk.white.bold('      Card:')
+  'labelCard': chalk.hex('#f5c316').bold('      Card:')
 }
 
 // Actual strings we're going to output

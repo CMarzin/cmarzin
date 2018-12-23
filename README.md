@@ -3,10 +3,10 @@
 Inspired by the work of bitandbang :
 
 ```
-npx bitanbang
+npx bitandbang
 ```
 
-Courtoisy of [studioelsa.se](https://studioelsa.se/blog/open-source-oss-npx-business-card/) for the helpful article.
+Courtesy of [studioelsa.se](https://studioelsa.se/blog/open-source-oss-npx-business-card/) for the helpful article.
 
 ## Usage :
 
